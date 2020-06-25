@@ -1,0 +1,22 @@
+@import "../variables";
+
+.index-page {
+  &__link-list {
+    text-transform: uppercase;
+    font-family: $font-headline;
+    font-weight: bold;
+    margin-left: 0;
+    margin-top: -5px;
+    li {
+      list-style: none;
+      margin-bottom: 4px;
+    }
+    a {
+      color: $secondary-color;
+      font-size: 26px;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}

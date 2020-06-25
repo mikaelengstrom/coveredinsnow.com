@@ -10,7 +10,8 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
+import "./layout.scss"
+import Helmet from "react-helmet";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,15 +26,19 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Helmet>
+          <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet"></link>
+          <script async defer crossOrigin="anonymous"
+                  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=660142844570412&autoLogAppEvents=1"
+                  nonce="FOKrbAYI">
+          </script>
+      </Helmet>
+      <div id="fb-root"></div>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
+      <div className={"layout__rect layout__rect--1"}></div>
+      <div className={"layout__container"} >
+        <main className={"layout__main"}>{children}</main>
+
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}

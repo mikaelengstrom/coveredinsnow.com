@@ -1,0 +1,69 @@
+@import "../variables";
+
+.header {
+  background: $secondary-color;
+  position: relative;
+  overflow: hidden;
+
+
+  &__logo{
+    position: absolute;
+    margin-top: 15px;
+    z-index: 1;
+  }
+
+  &__rect {
+    background: $primary-color;
+    position: absolute;
+
+    &--1 {
+      width: 200px;
+      height: 150px;
+      left: -113px;
+      top: -53px;
+      transform: rotate(20deg);
+    }
+
+    &--2 {
+      width: 150px;
+      height: 80px;
+      right: -25px;
+      top: -52px;
+      transform: rotate(25deg);
+    }
+  }
+
+
+  &__image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 45px;
+    margin-top: -25px;
+  }
+
+  &__image-text {
+    margin-bottom: 100px;
+    margin-top: -8px;
+    z-index: 2;
+  }
+
+  &__image-cover {
+    position: absolute !important;
+    width: 150px;
+    top: 135px;
+    z-index: 1;
+  }
+
+  &::after {
+    content: " ";
+    width: calc(100% + 40px);
+    height: 200px;
+    background: white;
+    bottom: -150px;
+    left: -20px;
+    position: absolute;
+    transform: rotate(-4deg);
+  }
+}
+
