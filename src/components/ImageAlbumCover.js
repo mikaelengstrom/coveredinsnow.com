@@ -30,7 +30,6 @@ const ImageAlbumCover = ({className}) => {
         fluid={data.placeholderImage.childImageSharp.fluid}
         alt="Album cover for Hurry Up to Love Here"
         className={className}
-        style={{width: "128px"}}
     />
 }
 

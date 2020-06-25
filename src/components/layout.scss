@@ -618,11 +618,19 @@ pre tt:after {
 }
 
 
+.site {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
 .layout__container {
   position: relative;
   margin: 0 auto;
   maxWidth: 960px;
-  padding: 0 1.0875rem 1.45rem;
+  padding: 0 8px 1.45rem;
+  flex-grow: 1;
 }
 
 .layout__rect {
@@ -640,5 +648,16 @@ pre tt:after {
 
 .layout__main{
 
+}
+
+@media only screen and (min-width: 800px) {
+  .layout__rect {
+    &--1 {
+      width: 300px;
+      left: -176px;
+      top: 300px;
+      transform: rotate(35deg);
+    }
+  }
 }
 

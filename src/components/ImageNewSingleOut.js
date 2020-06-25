@@ -43,7 +43,7 @@ const ImageNewSingleOut = ({className}) => {
     },
   ]
 
-  return <Img fluid={sources} alt="New Single Out Now" className={className} style={{width: "330px"}}/>
+  return <Img fluid={sources} alt="New Single Out Now" className={className}/>
 }
 
 export default ImageNewSingleOut

@@ -19,4 +19,30 @@
       }
     }
   }
+
 }
+
+.share-box {
+  background: $gray-light;
+  padding: 24px 16px 40px;
+  max-width: 304px;
+
+  &__headline {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  &__sub-caption {
+    font-size: 14px;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 16px;
+  }
+
+  &__spotify {
+    margin-top: 16px;
+  }
+}
+
+

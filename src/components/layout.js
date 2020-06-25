@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.scss"
 import Helmet from "react-helmet";
+import Footer from "./footer";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,16 +35,15 @@ const Layout = ({ children }) => {
           </script>
       </Helmet>
       <div id="fb-root"></div>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div className={"layout__rect layout__rect--1"}></div>
-      <div className={"layout__container"} >
-        <main className={"layout__main"}>{children}</main>
+      <div className={'site'}>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <div className={"layout__rect layout__rect--1"}></div>
+        <div className={"layout__container"} >
+          <main className={"layout__main"}>{children}</main>
 
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        </div>
+
+        <Footer />
       </div>
     </>
   )

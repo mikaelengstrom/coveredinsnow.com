@@ -25,13 +25,13 @@ const IndexPage = () => (
 
 
     <div className={'share-box'}>
-        <h2>Do not miss out on new releases</h2>
-        <strong>Follow us on Facebook and Spotify</strong>
+        <h2 className={'share-box__headline'}>Do not miss out on new releases</h2>
+        <strong className={'share-box__sub-caption'}>Follow us on Facebook and Spotify</strong>
         <div className={'share-box__spotify'} dangerouslySetInnerHTML={spotify}></div>
         <div className={'share-box__facebook'}>
             <div className="fb-page"
                  data-href="https://www.facebook.com/coveredinsnowband"
-                 data-width="380"
+                 data-width="272"
                  data-hide-cover="false"
                  data-show-facepile="false"></div>
         </div>

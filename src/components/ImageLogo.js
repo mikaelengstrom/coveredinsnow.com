@@ -13,6 +13,7 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+import './ImageLogo.scss'
 
 const ImageLogo = () => {
   const data = useStaticQuery(graphql`
@@ -27,7 +28,7 @@ const ImageLogo = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Covered in Snow" style={{width: '80px'}} />
+  return <Img className={'image-logo'} fluid={data.placeholderImage.childImageSharp.fluid} alt="Covered in Snow" />
 }
 
 export default ImageLogo
