@@ -1,0 +1,44 @@
+@keyframes wiggle {
+  from {
+    transform: rotate(14deg);
+  }
+  to {
+    transform: rotate(18deg);
+  }
+}
+
+@keyframes wiggle-2 {
+  from {
+    transform: rotate(4deg);
+  }
+  to {
+    transform: rotate(-4deg);
+  }
+}
+
+@keyframes wiggle-20 {
+  from {
+    transform: rotate(-19deg);
+  }
+  to {
+    transform: rotate(-21deg);
+  }
+}
+
+@keyframes wiggle-30 {
+  from {
+    transform: rotate(27deg);
+  }
+  to {
+    transform: rotate(33deg);
+  }
+}
+
+@keyframes wiggle-35 {
+  from {
+    transform: rotate(34deg);
+  }
+  to {
+    transform: rotate(36deg);
+  }
+}

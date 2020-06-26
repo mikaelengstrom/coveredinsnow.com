@@ -1,4 +1,6 @@
 @import "../variables";
+@import "../keyframes";
+
 
 .header {
   background: $secondary-color;
@@ -64,7 +66,7 @@
     bottom: -150px;
     left: -20px;
     position: absolute;
-    transform: rotate(-4deg);
+    animation: wiggle-2 11s infinite alternate;
   }
 }
 
@@ -100,7 +102,8 @@
         height: 210px;
         left: -32px;
         top: -41px;
-        transform: rotate(16deg);
+
+        animation: wiggle 2s infinite alternate;
       }
 
       &--2 {
@@ -109,14 +112,13 @@
         right: -66px;
         // right: 106px;
         top: -55px;
-        transform: rotate(14deg);
+        animation: wiggle 5s infinite alternate;
       }
 
       &--3 {
         width: 300px;
         height: 300px;
-        transform: rotate(30deg);
-        //right: 30px;
+        animation: wiggle-30 9s infinite alternate;
         right: -200px;
         bottom: -181px;
       }

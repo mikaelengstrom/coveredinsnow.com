@@ -27,6 +27,12 @@
     left: -55px;
     top: 114px;
     z-index: -2;
+
+    @media only screen and (min-width: 800px) {
+      width: 1280px;
+      transform: rotate(8deg);
+      top: 86px;
+    }
   }
 
   &__text {

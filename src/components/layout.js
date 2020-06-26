@@ -36,14 +36,15 @@ const Layout = ({ children }) => {
       </Helmet>
       <div id="fb-root"></div>
       <div className={'site'}>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div className={"layout__rect layout__rect--1"}></div>
-        <div className={"layout__container"} >
-          <main className={"layout__main"}>{children}</main>
+          <Header siteTitle={data.site.siteMetadata.title}/>
+          <div className={"layout__rect layout__rect--1"}></div>
+          <div className={"layout__container"}>
+            <main className={"layout__main"}>{children}</main>
 
-        </div>
+          </div>
 
         <Footer />
+        <div className={"layout__rect layout__rect--2"}></div>
       </div>
     </>
   )
