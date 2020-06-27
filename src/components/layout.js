@@ -141,7 +141,7 @@ const Layout = ({children}) => {
                   {
                     "@context": "https://schema.org",
                     "@type": "Organization",
-                    "url": "https://www.coveredinsnow.com",
+                    "url": "${siteUrl}",
                     "name": "Covered in Snow",
                     "contactPoint": {
                       "@type": "ContactPoint",
@@ -156,7 +156,7 @@ const Layout = ({children}) => {
                   {
                     "@context": "https://schema.org",
                     "@type": "Organization",
-                    "url": "https://www.coveredinsnow.com",
+                    "url": "${siteUrl}",
                     "sameAs" : ["https://www.facebook.com/coveredinsnowband/", "https://www.instagram.com/coveredinsnowband/"],
                     "name": "Covered in Snow",
                     "contactPoint": {
@@ -171,7 +171,7 @@ const Layout = ({children}) => {
                     {`{
                        "@context": "http://schema.org",
                        "@type": "MusicGroup",
-                       "@id": "https://www.coveredinsnow.com",
+                       "@id": "${siteUrl}",
                        "name": "Covered in Snow",
                        "description": "${title}",
                        "sameAs" : ["https://www.facebook.com/coveredinsnowband/", "https://www.instagram.com/coveredinsnowband/"],
@@ -188,7 +188,7 @@ const Layout = ({children}) => {
                        "album": [
                          {
                           "@type": "MusicAlbum",
-                          "@id": "https://www.coveredinsnow.com",
+                          "@id": "${siteUrl}",
                           "name": "Hurry Up to Love Here",
                           "datePublished": 2020
                          }

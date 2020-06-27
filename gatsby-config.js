@@ -4,7 +4,7 @@ module.exports = {
     description: `Synth Pop Made In Sweden. Covered in Snow was formed in 2017 and currently relevant with their latest release: Hurry Up to Love Here`,
     author: `Covered in Snow`,
     keywords: ['Stockholm Music', 'Covered in Snow Band', 'Indietronica Artist', 'Electro pop Artist', 'Swedish Synth Pop'],
-    siteUrl: 'https://www.coveredinsnowband.com',
+    siteUrl: 'https://coveredinsnow.com',
     metaImage: {
       src: 'src/images/hurry-up-to-love-here-album-cover.png',
       width: 200,
