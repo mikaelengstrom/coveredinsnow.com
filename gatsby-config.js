@@ -13,6 +13,8 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-robots-txt',
+    'gatsby-plugin-sitemap',
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -35,6 +37,7 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+
     {
       resolve: `gatsby-plugin-s3`,
       options: {
