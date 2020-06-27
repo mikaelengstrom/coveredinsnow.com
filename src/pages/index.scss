@@ -10,12 +10,14 @@
 
     li {
       list-style: none;
-      margin-bottom: 4px;
+      margin-bottom: 0;
     }
 
     a {
       color: $secondary-color;
-      font-size: 26px;
+      font-size: 30px;
+      padding: 8px;
+      display: block;
 
       &:hover {
         color: $primary-color;
