@@ -1,8 +1,15 @@
 module.exports = {
   siteMetadata: {
     title: `Covered in Snow `,
-    description: `Synth Pop Made In Stockholm`,
+    description: `Synth Pop Made In Sweden. Covered in Snow was formed in 2017 and currently relevant with their latest release: Hurry Up to Love Here`,
     author: `Covered in Snow`,
+    keywords: ['Stockholm Music', 'Covered in Snow Band', 'Indietronica Artist', 'Electro pop Artist', 'Swedish Synth Pop'],
+    siteUrl: 'https://www.coveredinsnowband.com',
+    metaImage: {
+      src: 'src/images/hurry-up-to-love-here-album-cover.png',
+      width: 200,
+      height: 200,
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +34,12 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "coveredinsnow.com",
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

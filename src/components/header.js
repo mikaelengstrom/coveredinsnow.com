@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
   <header
       className={'header'}
   >
-      <h1 className={'header__logo'}>
+      <div className={'header__logo'}>
           <Link
               to="/"
               style={{
@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
           >
               <ImageLogo/>
           </Link>
-      </h1>
+      </div>
 
       <div className={'header__image-wrapper'}>
         <ImageNewSingleOut className={'header__image-text'}/>
