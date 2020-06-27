@@ -7,8 +7,8 @@ module.exports = {
         siteUrl: 'https://coveredinsnow.com',
         metaImage: {
             src: '/images/hurry-up-to-love-here-album-cover.png',
-            width: 200,
-            height: 200,
+            width: 1921,
+            height: 1921,
         },
     },
     plugins: [

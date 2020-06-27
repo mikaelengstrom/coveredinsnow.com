@@ -91,6 +91,14 @@ const Layout = ({children}) => {
                         content: author,
                     },
                     {
+                        name: `twitter:image`,
+                        content: image,
+                    },
+                    {
+                        name: `twitter:site`,
+                        content: siteUrl,
+                    },
+                    {
                         name: `twitter:title`,
                         content: title,
                     },
