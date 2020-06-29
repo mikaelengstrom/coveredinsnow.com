@@ -55,6 +55,7 @@
     position: absolute !important;
     width: 150px;
     top: 135px;
+    right: 46px;
     z-index: 1;
   }
 
@@ -93,6 +94,7 @@
     &__image-cover {
       position: relative !important;
       width: 310px;
+      right: 0;
       top:0;
     }
 
