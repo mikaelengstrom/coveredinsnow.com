@@ -38,6 +38,12 @@ module.exports = {
             },
         },
         {
+          resolve: `gatsby-plugin-facebook-pixel`,
+          options: {
+            pixelId: '276203473442626',
+          },
+        },
+        {
             resolve: "gatsby-plugin-google-tagmanager",
             options: {
                 id: "GTM-PCCRPRW",
