@@ -191,7 +191,7 @@ const Layout = ({children}) => {
                          {
                            "@type": "Person",
                            "name": "Tom Hedlund"
-                         },
+                         }
                        ],
                        "album": [
                          {
