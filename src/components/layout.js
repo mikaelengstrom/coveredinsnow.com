@@ -150,21 +150,6 @@ const Layout = ({children}) => {
                     "@context": "https://schema.org",
                     "@type": "Organization",
                     "url": "${siteUrl}",
-                    "name": "Covered in Snow",
-                    "contactPoint": {
-                      "@type": "ContactPoint",
-                      "email": "info@coveredinsnow.com",
-                      "contactType": "Members"
-                    }
-                  }
-              `}
-                </script>
-                <script type="application/ld+json">
-                    {`
-                  {
-                    "@context": "https://schema.org",
-                    "@type": "Organization",
-                    "url": "${siteUrl}",
                     "sameAs" : ["https://www.facebook.com/coveredinsnowband/", "https://www.instagram.com/coveredinsnowband/"],
                     "name": "Covered in Snow",
                     "contactPoint": {
