@@ -188,7 +188,7 @@ const Layout = ({children}) => {
                        ]
                      }`}
                 </script>
-                <!-- Facebook Pixel Code -->
+                {`
                 <script>
                   !function(f,b,e,v,n,t,s)
                   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -204,7 +204,7 @@ const Layout = ({children}) => {
                 <noscript><img height="1" width="1" style="display:none"
                   src="https://www.facebook.com/tr?id=276203473442626&ev=PageView&noscript=1"
                 /></noscript>
-                <!-- End Facebook Pixel Code -->
+                `}
             </Helmet>
 
             <div id="fb-root"></div>
