@@ -13,11 +13,8 @@ const IndexPage = () => (
     <div className="column">
       <article className={'main-content'}>
         <SEO title="New Single: Hurry Up to Love Here"/>
-        <h1>Synth Pop,<br /> Made in Sweden</h1>
-
-        <p>We are Covered in Snow, a Synth Pop/Indietronica duo based in Stockholm brewing since 2017.</p>
-        <p>We just released our new single: Hurry Up to Love Here. Fill your speakers with Synth Pop and if you like it, tell your friends, if you do not: Tell us.</p>
-
+        <h1>New Single Out Now:<br />Hurry Up to Love Here</h1>
+        <p>Find it on your favourite streaming service:</p>
         <ul className={'index-page__link-list'}>
           <li><Link to="https://open.spotify.com/artist/5vLvTcyMJ6nc7MRWBLv9fX">Spotify <ArrowRight/></Link></li>
           <li><Link to="https://soundcloud.com/coveredinsnowband/hurry-up-to-love-here">Sound Cloud <ArrowRight/></Link>
@@ -29,7 +26,12 @@ const IndexPage = () => (
             Play<ArrowRight/></Link></li>
         </ul>
 
-        <p>Best wishes / Mikael Engström and Tom Hedlund</p>
+        <p>If you like it, add it to your playlists and share it with your friends</p>
+
+        <h2>About Covered in Snow</h2>
+        <p>Covered in Snow is a Synth pop/Indietronica duo based in Stockholm, Sweden. They were formed in 2017 when the longtime friends Tom Hedlund and Mikael Engström ended up living in the same town for the first time in years. Their first release, Spaceboy, was released just a few months later.</p>
+        <p>In April 2019, they released their conceptual EP, Collateral Damage, which explore feelings and their effects on individuals, their surroundings and society. Each song is representing one feeling, portrayed by the lyrics and soundscape. If you have ever wondered what shame, angst, guilt, regret or emptiness sounds like, give it a spin!</p>
+        <p>While having their roots in 90s Alternative Rock and Trip Hop such as Smashing Pumpkins, Radiohead and Massive Attack the duo draw heavy inspiration from various genres of today such as Synth Pop, Electronica and Dream Pop, creating a unique sound that truly stands out on today's music scene.</p>
       </article>
     </div>
 
