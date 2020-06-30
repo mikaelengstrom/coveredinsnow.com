@@ -24,7 +24,10 @@ const IndexPage = () => (
           <li><Link
             to="https://play.google.com/store/music/artist/Covered_in_Snow?id=Akq4ivfidlefngmq5latx7wd46a&hl=en_US">Google
             Play<ArrowRight/></Link></li>
+          <li><Link
+              to="https://www.youtube.com/channel/UC_CRzrUVuc95y5csGlDnMPg">YouTube<ArrowRight/></Link></li>
         </ul>
+
 
         <p>If you like it, add it to your playlists and share it with your friends</p>
 

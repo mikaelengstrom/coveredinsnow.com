@@ -6,6 +6,7 @@
   background: $secondary-color;
   position: relative;
   overflow: hidden;
+  height: 120px;
 
 
   &__logo{
@@ -37,7 +38,7 @@
 
 
   &__image-wrapper {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: end;
     padding-right: 45px;
@@ -62,22 +63,24 @@
   &::after {
     content: " ";
     width: calc(100% + 40px);
-    height: 200px;
+    height: 180px;
     background: white;
     bottom: -150px;
     left: -20px;
     position: absolute;
-    animation: wiggle-2 11s infinite alternate;
+    transform: rotate(-4deg);
   }
 }
 
 @media only screen and (min-width: 768px) {
   .header{
+    height: auto;
     &__logo {
       margin-top: -16px;
     }
 
     &__image-wrapper {
+      display: flex;
       align-items: center;
       flex-direction: row;
       justify-content: center;
@@ -126,6 +129,11 @@
       }
 
 
+    }
+
+    &::after {
+      height: 200px;
+      animation: wiggle-2 11s infinite alternate;
     }
   }
 }
