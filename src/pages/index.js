@@ -16,16 +16,16 @@ const IndexPage = () => (
         <h1>New Single Out Now:<br />Hurry Up to Love Here</h1>
         <p>Find it on your favourite streaming service:</p>
         <ul className={'index-page__link-list'}>
-          <li><Link to="https://open.spotify.com/artist/5vLvTcyMJ6nc7MRWBLv9fX">Spotify <ArrowRight/></Link></li>
+          <li><Link to="https://open.spotify.com/track/2XZfJokkt2qp0ilj3ZPlm9?si=WU_Y5BUVRO-uilbfkFF2uA">Spotify <ArrowRight/></Link></li>
           <li><Link to="https://soundcloud.com/coveredinsnowband/hurry-up-to-love-here">Sound Cloud <ArrowRight/></Link>
           </li>
-          <li><Link to="https://itunes.apple.com/us/artist/covered-in-snow/1298147361">Apple
+          <li><Link to="https://music.apple.com/us/album/hurry-up-to-love-here-single/1516524016">Apple
             Music <ArrowRight/></Link></li>
           <li><Link
-            to="https://play.google.com/store/music/artist/Covered_in_Snow?id=Akq4ivfidlefngmq5latx7wd46a&hl=en_US">Google
+            to="https://play.google.com/store/music/album?id=Bbk5fozcybdbaknele4lkok72lm&tid=song-Tsn6ka7hdzgvdgzcvhieo22gmba&hl=en_US">Google
             Play<ArrowRight/></Link></li>
           <li><Link
-              to="https://www.youtube.com/channel/UC_CRzrUVuc95y5csGlDnMPg">YouTube<ArrowRight/></Link></li>
+              to="https://youtu.be/QGkLVh6h1NA">YouTube<ArrowRight/></Link></li>
         </ul>
 
 
