@@ -1,5 +1,4 @@
 import React from "react"
-import {Link} from "gatsby"
 
 import './index.scss'
 import Layout from "../components/layout"
@@ -16,16 +15,17 @@ const IndexPage = () => (
         <h1>New Single Out Now:<br />Hurry Up to Love Here</h1>
         <p>Find it on your favourite streaming service:</p>
         <ul className={'index-page__link-list'}>
-          <li><Link to="https://open.spotify.com/track/2XZfJokkt2qp0ilj3ZPlm9?si=WU_Y5BUVRO-uilbfkFF2uA">Spotify <ArrowRight/></Link></li>
-          <li><Link to="https://soundcloud.com/coveredinsnowband/hurry-up-to-love-here">Sound Cloud <ArrowRight/></Link>
+          <li><a target="_blank" rel="noreferrer" href="https://open.spotify.com/track/2XZfJokkt2qp0ilj3ZPlm9?si=WU_Y5BUVRO-uilbfkFF2uA">Spotify <ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://soundcloud.com/coveredinsnowband/hurry-up-to-love-here">Sound Cloud <ArrowRight/></a>
           </li>
-          <li><Link to="https://music.apple.com/us/album/hurry-up-to-love-here-single/1516524016">Apple
-            Music <ArrowRight/></Link></li>
-          <li><Link
-            to="https://play.google.com/store/music/album?id=Bbk5fozcybdbaknele4lkok72lm&tid=song-Tsn6ka7hdzgvdgzcvhieo22gmba&hl=en_US">Google
-            Play<ArrowRight/></Link></li>
-          <li><Link
-              to="https://youtu.be/QGkLVh6h1NA">YouTube<ArrowRight/></Link></li>
+          <li><a target="_blank" rel="noreferrer" href="https://music.apple.com/us/album/hurry-up-to-love-here-single/1516524016">Apple
+            Music <ArrowRight/></a></li>
+          <li><a
+            target="_blank"
+            rel="noreferrer"
+            href="https://play.google.com/store/music/album?id=Bbk5fozcybdbaknele4lkok72lm&tid=song-Tsn6ka7hdzgvdgzcvhieo22gmba&hl=en_US">Google
+            Play<ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://youtu.be/QGkLVh6h1NA">YouTube<ArrowRight/></a></li>
         </ul>
 
 
