@@ -16,6 +16,7 @@ const IndexPage = () => (
         <p>Find it on your favourite streaming service:</p>
         <ul className={'index-page__link-list'}>
           <li><a target="_blank" rel="noreferrer" href="https://open.spotify.com/track/2XZfJokkt2qp0ilj3ZPlm9?si=WU_Y5BUVRO-uilbfkFF2uA">Spotify <ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://youtu.be/QGkLVh6h1NA">YouTube<ArrowRight/></a></li>
           <li><a target="_blank" rel="noreferrer" href="https://soundcloud.com/coveredinsnowband/hurry-up-to-love-here">Sound Cloud <ArrowRight/></a>
           </li>
           <li><a target="_blank" rel="noreferrer" href="https://music.apple.com/us/album/hurry-up-to-love-here-single/1516524016">Apple
@@ -25,7 +26,6 @@ const IndexPage = () => (
             rel="noreferrer"
             href="https://play.google.com/store/music/album?id=Bbk5fozcybdbaknele4lkok72lm&tid=song-Tsn6ka7hdzgvdgzcvhieo22gmba&hl=en_US">Google
             Play<ArrowRight/></a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://youtu.be/QGkLVh6h1NA">YouTube<ArrowRight/></a></li>
         </ul>
 
 
