@@ -43,16 +43,16 @@ const IndexPage = () => (
         <h2 className={'share-box__headline'}>Do not miss out on new releases</h2>
         <strong className={'share-box__sub-caption'}>Follow us on Social Media</strong>
         <div className={'share-box__spotify'} dangerouslySetInnerHTML={spotify}></div>
+        <div className={'share-box__youtube'}>
+          <div className="g-ytsubscribe" data-channelid="UC_CRzrUVuc95y5csGlDnMPg" data-layout="full"
+               data-count="hidden"></div>
+        </div>
         <div className={'share-box__facebook'}>
           <div className="fb-page"
                data-href="https://www.facebook.com/coveredinsnowband"
                data-width="272"
                data-hide-cover="false"
                data-show-facepile="false"></div>
-        </div>
-        <div className={'share-box__youtube'}>
-          <div className="g-ytsubscribe" data-channelid="UC_CRzrUVuc95y5csGlDnMPg" data-layout="full"
-               data-count="hidden"></div>
         </div>
       </div>
     </div>
