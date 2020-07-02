@@ -41,7 +41,7 @@ const IndexPage = () => (
     <div className="column">
       <div className={'share-box'}>
         <h2 className={'share-box__headline'}>Do not miss out on new releases</h2>
-        <strong className={'share-box__sub-caption'}>Follow us on Facebook and Spotify</strong>
+        <strong className={'share-box__sub-caption'}>Follow us on Social Media</strong>
         <div className={'share-box__spotify'} dangerouslySetInnerHTML={spotify}></div>
         <div className={'share-box__facebook'}>
           <div className="fb-page"
