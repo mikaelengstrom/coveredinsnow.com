@@ -50,6 +50,10 @@ const IndexPage = () => (
                data-hide-cover="false"
                data-show-facepile="false"></div>
         </div>
+        <div className={'share-box__youtube'}>
+          <div className="g-ytsubscribe" data-channelid="UC_CRzrUVuc95y5csGlDnMPg" data-layout="full"
+               data-count="hidden"></div>
+        </div>
       </div>
     </div>
 
