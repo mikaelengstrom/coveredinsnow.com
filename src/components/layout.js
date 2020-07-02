@@ -144,7 +144,7 @@ const Layout = ({children}) => {
                         src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=660142844570412&autoLogAppEvents=1"
                         nonce="FOKrbAYI">
                 </script>
-                <script src="https://apis.google.com/js/platform.js"></script>
+                <script async defer crossOrigin="anonymous" src="https://apis.google.com/js/platform.js"></script>
                 <script type="application/ld+json">
                     {`
                   {
