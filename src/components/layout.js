@@ -194,7 +194,6 @@ const Layout = ({children}) => {
             <div id="fb-root"></div>
             <div className={'site'}>
                 <Header/>
-                <div className={"layout__rect layout__rect--1"}></div>
                 <div className={"layout__container"}>
                     <main className={"layout__main"}>{children}</main>
 

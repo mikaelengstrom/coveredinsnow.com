@@ -1,6 +1,20 @@
 @import "../variables";
 
 .index-page {
+  &__triangle {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    top: -500px;
+    left: -400px;
+    z-index: 0;
+  }
+
+  &__headline {
+    z-index: 10;
+    position: relative;
+  }
+
   &__link-list {
     text-transform: uppercase;
     font-family: $font-headline;

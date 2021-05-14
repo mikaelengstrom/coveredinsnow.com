@@ -8,11 +8,20 @@
   overflow: hidden;
   height: 120px;
 
+  &__text {
+    font-family: "Bungee Shade", Helvetica;
+    font-size: 3.3rem;
+    line-height: 1;
+    z-index: 10;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    color: #FAC9AB;
+  }
 
   &__logo{
     position: absolute;
     margin-top: 15px;
-    z-index: 1;
+    z-index: 10;
   }
 
   &__rect {
@@ -21,6 +30,7 @@
 
     &--1 {
       width: 200px;
+      z-index: 1;
       height: 150px;
       left: -113px;
       top: -53px;

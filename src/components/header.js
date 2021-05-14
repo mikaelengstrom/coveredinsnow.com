@@ -24,7 +24,12 @@ const Header = ({ siteTitle }) => (
       </div>
 
       <div className={'header__image-wrapper'}>
-        <ImageNewSingleOut className={'header__image-text'}/>
+          <div className={'header__text'}>
+              Glasgow<br/>
+              Smile<br/>
+              Out<br/>
+              Now<br/>
+          </div>
         <ImageAlbumCover className={'header__image-cover'}/>
       </div>
 
