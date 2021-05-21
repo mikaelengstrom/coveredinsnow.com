@@ -18,7 +18,7 @@ const Triangle = ({className}) => {
     query {
       placeholderImage: file(relativePath: { eq: "triangle.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 700) {
             ...GatsbyImageSharpFluid
           }
         }

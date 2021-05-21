@@ -10,11 +10,11 @@
 
   &__text {
     font-family: "Bungee Shade", Helvetica;
-    font-size: 3.3rem;
     line-height: 1;
+    font-size: 2.3rem;
     z-index: 10;
     margin-bottom: 20px;
-    margin-right: 30px;
+    margin-right: 20px;
     color: #FAC9AB;
   }
 
@@ -33,7 +33,7 @@
       z-index: 1;
       height: 150px;
       left: -113px;
-      top: -53px;
+      top: -63px;
       transform: rotate(20deg);
     }
 
@@ -85,6 +85,7 @@
 @media only screen and (min-width: 768px) {
   .header{
     height: auto;
+
     &__logo {
       margin-top: -16px;
     }
@@ -93,9 +94,10 @@
       display: flex;
       align-items: center;
       flex-direction: row;
-      justify-content: center;
+      justify-content: flex-end;
       padding: 8px;
-      margin: 0;
+      max-width: 922px;
+      margin: 0 auto;
     }
 
     &__image-text {
@@ -150,6 +152,12 @@
 
 @media only screen and (min-width: 1280px) {
   .header{
+
+    &__text {
+      font-size: 3.3rem;
+      margin-right: 30px;
+    }
+
     &__rect{
       &--2 {
         right: 106px;

@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import ImageAlbumCover from "./ImageAlbumCover";
-import ImageNewSingleOut from "./ImageNewSingleOut";
 import ImageLogo from "./ImageLogo";
 
 
