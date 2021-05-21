@@ -22,21 +22,20 @@ const IndexPage = () => (
         <p>Find it on your favourite streaming service:</p>
 
         <ul className={'index-page__link-list'}>
-          <li><a target="_blank" rel="noreferrer" href="https://open.spotify.com/track/2XZfJokkt2qp0ilj3ZPlm9?si=WU_Y5BUVRO-uilbfkFF2uA">Spotify <ArrowRight/></a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://youtu.be/QGkLVh6h1NA">YouTube<ArrowRight/></a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://soundcloud.com/coveredinsnowband/hurry-up-to-love-here">Sound Cloud <ArrowRight/></a>
+          <li><a target="_blank" rel="noreferrer" href="https://open.spotify.com/album/0eShDjKRVk1JwEli0v00u2?si=-MbMD553RMS1cqOYPdRjkw">Spotify <ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=p6Tugf7uhRI">YouTube<ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://soundcloud.com/coveredinsnowband/glasgow-smile">Sound Cloud <ArrowRight/></a>
           </li>
-          <li><a target="_blank" rel="noreferrer" href="https://music.apple.com/us/album/hurry-up-to-love-here-single/1516524016">Apple
+          <li><a target="_blank" rel="noreferrer" href="https://music.apple.com/us/album/glasgow-smile/1564151413?i=1564151414">Apple
             Music <ArrowRight/></a></li>
           <li><a
             target="_blank"
             rel="noreferrer"
-            href="https://play.google.com/store/music/album?id=Bbk5fozcybdbaknele4lkok72lm&tid=song-Tsn6ka7hdzgvdgzcvhieo22gmba&hl=en_US">Google
-            Play<ArrowRight/></a></li>
+            href="https://music.youtube.com/playlist?list=OLAK5uy_lcC3d6Vslt31rSHJDX7PeIDgoVaZrkMFs&feature=share">YouTube Music<ArrowRight/></a></li>
           <li><a
               target="_blank"
               rel="noreferrer"
-              href="https://play.google.com/store/music/album?id=Bbk5fozcybdbaknele4lkok72lm&tid=song-Tsn6ka7hdzgvdgzcvhieo22gmba&hl=en_US">Bandcamp<ArrowRight/></a></li>
+              href="https://coveredinsnow.bandcamp.com">Bandcamp<ArrowRight/></a></li>
         </ul>
 
         <p>If you like it, add it to your playlists and share it with your friends</p>
