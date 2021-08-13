@@ -12,13 +12,13 @@ const IndexPage = () => (
   <Layout>
     <div className="column">
       <article className={'main-content'}>
-        <Seo title="New Single: Glasgow Smile"/>
+        <Seo title="New Single: Raincheck"/>
 
         <div className={"index-page__triangle"}>
-          <Triangle  />
+          <Triangle />
         </div>
 
-        <h1 className={"index-page__headline"}>New Single Out Now:<br />Glasgow Smile</h1>
+        <h1 className={"index-page__headline"}>New Single Out Now:<br />Raincheck</h1>
         <p>Find it on your favourite streaming service:</p>
 
         <ul className={'index-page__link-list'}>
@@ -44,7 +44,7 @@ const IndexPage = () => (
         <p>Synthpop, Electronic pop, Synthwave, Dream pop - it’s hard to fit <em>Covered in Snow</em> into only one genre. But maybe that's a part of what makes the Stockholm duo's music unique. Together their influences form a stable ground to what is now their own sound. A sound that stands out in today's music scene.</p>
         <p>The band was formed in 2017 when longtime friends Tom Hedlund and Mikael Engström ended up living in the same town for the first time in years. Their first single, <em>Spaceboy</em>, was released just a few months later and its two tracks were originally written for their previous, now discontinued project <em>Shallow Sense</em>, but were never released because they were a bit too dark to fit into that project's genre.</p>
         <p>Since then Covered in Snow has released one EP and several singles which have been heard on the radio in several countries as well as on Swedish national television. They have received great reviews and their song <em>Guilt</em> was awarded the seventeenth best song of the year by Popmuzik.se.</p>
-        <p>In the year 2021, Covered in Snow will release six new songs. <em>Glasgow Smile</em> is the second one.</p>
+        <p>In the year 2021, Covered in Snow will release six new songs. <em>Raincheck</em> is the third one.</p>
       </article>
     </div>
 

@@ -9,13 +9,14 @@
   height: 120px;
 
   &__text {
-    font-family: "Bungee Shade", Helvetica;
+    font-family: "Monoton", Helvetica;
+    text-transform: uppercase;
     line-height: 1;
     font-size: 2.3rem;
     z-index: 10;
     margin-bottom: 20px;
     margin-right: 20px;
-    color: #FAC9AB;
+    color: white;
   }
 
   &__logo{

@@ -200,7 +200,6 @@ const Layout = ({children}) => {
                 </div>
 
                 <Footer/>
-                <div className={"layout__rect layout__rect--2"}></div>
             </div>
         </>
     )
