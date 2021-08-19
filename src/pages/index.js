@@ -22,16 +22,16 @@ const IndexPage = () => (
         <p>Find it on your favourite streaming service:</p>
 
         <ul className={'index-page__link-list'}>
-          <li><a target="_blank" rel="noreferrer" href="https://open.spotify.com/album/0eShDjKRVk1JwEli0v00u2?si=-MbMD553RMS1cqOYPdRjkw">Spotify <ArrowRight/></a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=p6Tugf7uhRI">YouTube<ArrowRight/></a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://soundcloud.com/coveredinsnowband/glasgow-smile">Sound Cloud <ArrowRight/></a>
+          <li><a target="_blank" rel="noreferrer" href="https://open.spotify.com/track/5gOw9oJQdBf9tbHHDeEf1H?si=a3adfd628a0a4769">Spotify <ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=CkXFpViVDM4&list=RDCkXFpViVDM4&index=1">YouTube<ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://soundcloud.com/coveredinsnowband/raincheck">Sound Cloud <ArrowRight/></a>
           </li>
-          <li><a target="_blank" rel="noreferrer" href="https://music.apple.com/us/album/glasgow-smile/1564151413?i=1564151414">Apple
+          <li><a target="_blank" rel="noreferrer" href="https://music.apple.com/us/album/raincheck-single/1578356146">Apple
             Music <ArrowRight/></a></li>
           <li><a
             target="_blank"
             rel="noreferrer"
-            href="https://music.youtube.com/playlist?list=OLAK5uy_lcC3d6Vslt31rSHJDX7PeIDgoVaZrkMFs&feature=share">YouTube Music<ArrowRight/></a></li>
+            href="https://music.youtube.com/playlist?list=OLAK5uy_kT9EUH6aFgqUQilm9I_VdEfJp_p6x1tLw">YouTube Music<ArrowRight/></a></li>
           <li><a
               target="_blank"
               rel="noreferrer"
