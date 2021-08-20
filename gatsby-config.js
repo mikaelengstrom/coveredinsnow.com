@@ -6,9 +6,9 @@ module.exports = {
         keywords: ['Stockholm Music', 'Covered in Snow Band', 'Indietronica Artist', 'Electro pop Artist', 'Swedish Synth Pop'],
         siteUrl: 'https://coveredinsnow.com',
         metaImage: {
-            src: '/images/hurry-up-to-love-here-album-cover.png',
-            width: 1921,
-            height: 1921,
+            src: '/images/raincheck-cover.jpg',
+            width: 2892,
+            height: 2892,
         },
     },
     plugins: [
