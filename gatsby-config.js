@@ -7,8 +7,8 @@ module.exports = {
         siteUrl: 'https://coveredinsnow.com',
         metaImage: {
             src: '/images/raincheck-cover.jpg',
-            width: 2892,
-            height: 2892,
+            width: 1200,
+            height: 1200
         },
     },
     plugins: [
