@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const ImageAlbumCover = ({className}) => {
     const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "raincheck-cover.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "the-self-defeated-cover.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -28,7 +28,7 @@ const ImageAlbumCover = ({className}) => {
 
     return <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
-        alt="Album cover for the single Raincheck"
+        alt="Album cover for the single The Self-Defeated"
         className={className}
     />
 }

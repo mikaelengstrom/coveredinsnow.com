@@ -24,9 +24,9 @@ const Header = ({ siteTitle }) => (
 
       <div className={'header__image-wrapper'}>
           <div className={'header__text'}>
-              Raincheck<br/>
-              Out<br/>
-              Now<br/>
+              The <br />
+              Self-Defeated<br/>
+              Out Now<br/>
           </div>
         <ImageAlbumCover className={'header__image-cover'}/>
       </div>
