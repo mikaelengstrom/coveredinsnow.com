@@ -24,10 +24,10 @@ const Header = ({ siteTitle }) => (
 
       <div className={'header__image-wrapper'}>
           <div className={'header__text'}>
-              The <br />
-              Self-Defeated<br/>
+              Starlings<br/>
               Out Now<br/>
           </div>
+
         <ImageAlbumCover className={'header__image-cover'}/>
       </div>
 

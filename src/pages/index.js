@@ -4,7 +4,6 @@ import './index.scss'
 import Layout from "../components/layout"
 import ArrowRight from "../components/ArrowRight";
 import Seo from "../components/seo"
-import Triangle from "../components/Triangle";
 
 const spotify = {__html: "<iframe src=\"https://open.spotify.com/follow/1/?uri=spotify:artist:5vLvTcyMJ6nc7MRWBLv9fX&size=detail&theme=light\" width=\"300\" height=\"56\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden;\" allowtransparency=\"true\"></iframe>"}
 
@@ -14,19 +13,16 @@ const IndexPage = () => (
       <article className={'main-content'}>
         <Seo title="New Single: The Self-Defeated"/>
 
-        <div className={"index-page__triangle"}>
-          <Triangle />
-        </div>
 
-        <h1 className={"index-page__headline"}>New Single Out Now:<br />The Self-Defeated</h1>
+        <h1 className={"index-page__headline"}>New Single Out Now:<br />Starlings</h1>
         <p>Find it on your favourite streaming service:</p>
 
         <ul className={'index-page__link-list'}>
-          <li><a target="_blank" rel="noreferrer" href="https://open.spotify.com/album/2utLeqiTqs4RfUtYZ1cerx?si=c853d49c17c04f70">Spotify <ArrowRight/></a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://youtu.be/W27XQouWl_E">YouTube<ArrowRight/></a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://soundcloud.com/coveredinsnowband/covered-in-snow-the-self-defeated">Sound Cloud <ArrowRight/></a>
+          <li><a target="_blank" rel="noreferrer" href="https://open.spotify.com/artist/5vLvTcyMJ6nc7MRWBLv9fX?si=mwG0eH5dQcayNlovhAiXPQ">Spotify <ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://youtu.be/3T_DYRhJahU">YouTube<ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://soundcloud.com/coveredinsnowband/starlings">Sound Cloud <ArrowRight/></a>
           </li>
-          <li><a target="_blank" rel="noreferrer" href="https://music.apple.com/us/album/the-self-defeated-single/1589613515">Apple
+          <li><a target="_blank" rel="noreferrer" href="https://music.apple.com/us/album/starlings-single/1593014205">Apple
             Music <ArrowRight/></a></li>
           <li><a
             target="_blank"

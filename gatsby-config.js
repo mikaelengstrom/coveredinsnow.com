@@ -6,7 +6,7 @@ module.exports = {
         keywords: ['Stockholm Music', 'Covered in Snow Band', 'Indietronica Artist', 'Electro pop Artist', 'Swedish Synth Pop'],
         siteUrl: 'https://coveredinsnow.com',
         metaImage: {
-            src: '/images/the-self-defeated-cover.jpg',
+            src: '/images/starlings-cover.jpg',
             width: 1500,
             height: 1500
         },
