@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
 
       <div className={'header__image-wrapper'}>
           <div className={'header__text'}>
-              Starlings<br/>
+              Miljonprogrammet<br/>
               Out Now<br/>
           </div>
 

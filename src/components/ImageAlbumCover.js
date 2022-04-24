@@ -1,6 +1,5 @@
 import React from "react"
-import {useStaticQuery, graphql} from "gatsby"
-import Img from "gatsby-image"
+import {StaticImage} from "gatsby-plugin-image"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -14,21 +13,11 @@ import Img from "gatsby-image"
  */
 
 const ImageAlbumCover = ({className}) => {
-    const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "starlings-cover.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-
-    return <Img
-        fluid={data.placeholderImage.childImageSharp.fluid}
-        alt="Album cover for the single The Self-Defeated"
+    return <StaticImage
+        src="../images/cover-miljonprogrammet.jpg"
+        width={300}
+        quality={95}
+        alt="Album cover for the single Miljonprogrammet"
         className={className}
     />
 }

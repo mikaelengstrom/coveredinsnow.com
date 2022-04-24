@@ -14,7 +14,7 @@ const IndexPage = () => (
         <Seo title="New Single: The Self-Defeated"/>
 
 
-        <h1 className={"index-page__headline"}>New Single Out Now:<br />Starlings</h1>
+        <h1 className={"index-page__headline"}>New Single Out Now:<br />Miljonprogrammet</h1>
         <p>Find it on your favourite streaming service:</p>
 
         <ul className={'index-page__link-list'}>

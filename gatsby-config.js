@@ -6,7 +6,7 @@ module.exports = {
         keywords: ['Stockholm Music', 'Covered in Snow Band', 'Indietronica Artist', 'Electro pop Artist', 'Swedish Synth Pop'],
         siteUrl: 'https://coveredinsnow.com',
         metaImage: {
-            src: '/images/starlings-cover.jpg',
+            src: '/images/cover-miljonprogrammet.jpg',
             width: 1500,
             height: 1500
         },
@@ -15,6 +15,7 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         'gatsby-plugin-robots-txt',
         'gatsby-plugin-sitemap',
+        'gatsby-plugin-image',
         `gatsby-plugin-sass`,
         {
             resolve: `gatsby-source-filesystem`,
