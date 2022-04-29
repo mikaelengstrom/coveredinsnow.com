@@ -18,16 +18,16 @@ const IndexPage = () => (
         <p>Find it on your favourite streaming service:</p>
 
         <ul className={'index-page__link-list'}>
-          <li><a target="_blank" rel="noreferrer" href="https://open.spotify.com/artist/5vLvTcyMJ6nc7MRWBLv9fX?si=mwG0eH5dQcayNlovhAiXPQ">Spotify <ArrowRight/></a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://youtu.be/3T_DYRhJahU">YouTube<ArrowRight/></a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://soundcloud.com/coveredinsnowband/starlings">Sound Cloud <ArrowRight/></a>
+          <li><a target="_blank" rel="noreferrer" href="https://open.spotify.com/album/18NmJTImgVVyLgr7kpt8Mh?si=P0pHC3CiTFmmxhj70VBm0g">Spotify <ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=UfPR_94mkJo">YouTube<ArrowRight/></a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://soundcloud.com/coveredinsnowband/miljonprogrammet">Sound Cloud <ArrowRight/></a>
           </li>
-          <li><a target="_blank" rel="noreferrer" href="https://music.apple.com/us/album/starlings-single/1593014205">Apple
+          <li><a target="_blank" rel="noreferrer" href="https://music.apple.com/us/album/miljonprogrammet-single/1615785513">Apple
             Music <ArrowRight/></a></li>
           <li><a
             target="_blank"
             rel="noreferrer"
-            href="https://music.youtube.com/channel/UCnDb3ISL5pP5CbX-mrYTzoQ">YouTube Music<ArrowRight/></a></li>
+            href="https://music.youtube.com/watch?v=cLtwD0HMmVw&list=OLAK5uy_nsR1-kEQK9kgMIn7LXRqbXuNaFJx116R8">YouTube Music<ArrowRight/></a></li>
           <li><a
               target="_blank"
               rel="noreferrer"
